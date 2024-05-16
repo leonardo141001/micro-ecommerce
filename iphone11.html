@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Shop - ATENDD TECH</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="pagina/css/styles.css" rel="stylesheet" />
+        <link href="" rel="stylesheet" />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#!"><img src="assets/IMG/logo_semfundo.png"></a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                        <li class="nav-item"><a class="nav-link" href="index.html">home</a></li>
+                    </ul>
+                    
+                      
+                      
+                </div>
+                <div id="cart-details" class="cart-details">
+                    <h5>Carrinho</h5>
+                    <ul id="cart-list" class="list-unstyled"></ul>
+                    <button id="finish-btn" class="btn btn-primary mt-3">Finalizar Compra</button>
+                  </div>
+                  <form class="d-flex">
+                    <button id="cart-btn" class="btn btn-outline-dark d-lg-block" type="button">
+                        <i class="bi-cart-fill me-1"></i>
+                        Carrinho
+                        <span id="cart-badge" class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                    </button>
+                </form>
+            </div>
+        </nav>
+        <!-- Header-->
+        <!-- <header class="bg-dark py-5">
+            <img class="banner-1" src="assets/IMG/banner_1.jpg" alt="">
+             <div class="container px-4 px-lg-5 my-5">
+                <div class="text-center text-white">
+                    <h1 class="display-4 fw-bolder">Shop in style</h1>
+                    <p class="lead fw-normal text-white-50 mb-0">With this shop hompeage template</p>
+                </div>
+            </div>
+        </header> -->
+        <!-- Section-->
+        <section class="py-5">
+          <div class="container px-4 px-lg-5 my-5">
+              <div class="row gx-4 gx-lg-5 align-items-center">
+                <div class="col-md-6">
+                    <video class="responsive-video" poster="assets/IMG/Celulares/SEMI NOVOS/Iphone 11 64GB.jpg" src="pagina/assets/video/Iphone 11 Trailer.mp4" controls="controls"></video>
+                </div>
+                
+                  <div class="col-md-6">
+                      <h1 class="display-6 fw-bolder">Iphone 11 64GB</h1>
+                      <div class="fs-6 mb-3">
+                          <span class="text-decoration-line-through">De R$2.200</span>
+                          </p><p class="price-item"><b class="price-product"><marquee behavior="alternate" width="38%">R$1.999,00</marquee></b></p> <p> Em até 12x sem juros de 166,60 R$</p>
+                      </div>
+                      <h5>Escolher cor</h5>
+                      <div id="color-buttons" class="btn-group" role="group">
+                        
+                        <button type="button" class="btn btn-color" style="background-color: green;"></button>
+                        <button type="button" class="btn btn-color" style="background-color: white;"></button>
+                        <button type="button" class="btn btn-color" style="background-color: yellow;"></button>
+                        <button type="button" class="btn btn-color" style="background-color: black;"></button>
+                        <button type="button" class="btn btn-color" style="background-color: purple;"></button>
+                        <button type="button" class="btn btn-color" style="background-color: red;"></button>
+                      </div>
+                      <p class="lead">A apple traz no Smartphone Apple iPhone 11 64GB Câmera Dupla o sistema operacional iOS. A tela do celular é Liquid Retina HD com 6.1", e resolução HD+. O modelo tem 15.09cm de altura e 7.57cm de largura, com peso de 194.0g. O aparelho dispõe de câmera frontal de 12.0 MP, e traseiras de 12.0 + 12.0 MP.</p>
+                      <div class="d-flex">
+                        <div class="row align-items-center">
+                            <label for="quantity" class="col-auto col-form-label mb-3">Quantidade:</label>
+                            <div class="col">
+                              <input type="number" id="quantity" class="form-control mb-3" value="0" min="0">
+                            </div>
+                          </div>
+
+                          <select id="payment-method" class="pagamento-forma">
+                            <option value="credito">Cartão de Crédito</option>
+                            <option value="debito">Cartão de Débito</option>
+                            <option value="boleto">Boleto Bancário</option>
+                            <option value="paypal">Dinheiro</option>
+                            <option value="pix">PIX</option>
+                        </select>
+                          
+                          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a id="buy-btn" class="btn btn-outline-dark mt-auto" href="#"><i class="bi-cart-fill me-2"></i>Adicionar</a></div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="iphone11">
+            <h2>Ficha Técnica - iPhone 11</h2>
+            <table>
+                <tr>
+                    <th>Característica</th>
+                    <th>Detalhes</th>
+                </tr>
+                <tr class="white-row">
+                    <td>Sistema Operacional</td>
+                    <td>iOS 13</td>
+                </tr>
+                <tr class="gray-row">
+                    <td>Disponibilidade</td>
+                    <td>2019/3</td>
+                </tr>
+                <tr class="white-row">
+                    <td>Dimensões</td>
+                    <td>150.9 x 75.7 x 8.3 mm</td>
+                </tr>
+                <tr class="gray-row">
+                    <td>Peso</td>
+                    <td>194 gramas</td>
+                </tr>
+                <tr class="white-row">
+                    <td>Sim Card</td>
+                    <td>Nano chip</td>
+                </tr>
+                <tr class="gray-row">
+                    <td>Processador</td>
+                    <td>2x 2.65 GHz Lightning + 4x 1.8 GHz Thunde</td>
+                </tr>
+                <tr class="white-row">
+                    <td>RAM</td>
+                    <td>4 GB</td>
+                </tr>
+                <tr class="gray-row">
+                    <td>Tela - Polegadas</td>
+                    <td>6.1</td>
+                </tr>
+                <tr class="white-row">
+                    <td>Tela - Resolução</td>
+                    <td>828 x 1792 pixel</td>
+                </tr>
+                <tr class="gray-row">
+                    <td>Tela - FPS</td>
+                    <td>60 Hz</td>
+                </tr>
+                <tr class="white-row">
+                    <td>Câmera - Megapixel</td>
+                    <td>12 Mp + 12 Mp</td>
+                </tr>
+                <tr class="gray-row">
+                    <td>Câmera - Resolução</td>
+                    <td>4000 x 3000 pixel</td>
+                </tr>
+                <!-- Mais linhas da tabela aqui -->
+            </table>
+        </div>
+        
+
+      </section>
+      <!-- Related items section-->
+      <section class="py-5 bg-light">
+          <div class="container px-4 px-lg-5 mt-5">
+              <h2 class="fw-bolder-title  mb-4">Mais vendidos</h2>
+              <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                  <div class="col mb-5">
+                      <div class="card h-100">
+                          <!-- Product image-->
+                          <img class="card-img-top" src="assets/IMG/Celulares/SEMI NOVOS/IPHONE 14 128GB.jpg" alt="..." />
+                          <!-- Product details-->
+                          <div class="card-body p-4">
+                              <div class="text-center">
+                                  <!-- Product name-->
+                                  <h5 class="fw-bolder">iPhone 14 128GB</h5>
+                                  <!-- Product price-->
+                                  R$3.699,00 em 12x
+                              </div>
+                          </div>
+                          <!-- Product actions-->
+                          <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                              <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Ver mais</a></div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Product image-->
+                        <img class="card-img-top" src="assets/IMG/Celulares/Xiaomi/Note 13 pro Plus 256GB.jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Note 13 pro Plus 256GB</h5>
+                                <!-- Product price-->
+                                R$ 2.749,00 em 12x
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Ver mais</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Product image-->
+                        <img class="card-img-top" src="assets/IMG/Celulares/SEMI NOVOS/11 PRO MAX 64GB.jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">iPhone 11 Pro Max 64GB</h5>
+                                <!-- Product price-->
+                                R$2.599,00 em 12x
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Ver mais</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Product image-->
+                        <img class="card-img-top" src="assets/IMG/Celulares/Xiaomi/POCO X6 5G 12 - 512GB.jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Poco x6 256GB</h5>
+                                <!-- Product price-->
+                                R$ 1.699,00 em 12x
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Ver mais</a></div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+      </section>
+        <!-- Footer-->
+                <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 footer-info">
+            <h3>Atenddtech</h3>
+            <p>Descubra a Atenddtech e sua paixão por tecnologia móvel. Explore nossa vasta seleção de dispositivos de última geração, acessórios inovadores e serviços personalizados.</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-links">
+            <h4>Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="troca.html">Trode e devolução</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="entrega.html">Entrega de produtos</a></li>
+              
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-contact">
+            <h4>Contatos</h4>
+            <p>
+              R. Conceição, 562 - São Miguel - Juazeiro do norte - CE
+              <br>CEP: 63010-465<br>
+              <strong>Telefone:</strong> (88) 98878-7110<br>
+              <strong>Email:</strong>SAC@atenddtech.com<br>
+            </p>
+
+            <div class="social-links">
+              <a href="https://www.instagram.com/atenddtech/" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>
+            </div>
+
+          </div>
+
+          
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>Atenddtech</strong>. All Rights Reserved |
+        <strong>Development by <a href="https://leonardo141001.github.io/teckpcs/" target="_blank">Teckpcs</a></strong>
+      </div>
+      <div class="credits">
+       
+       
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="pagina/js/scripts.js"></script>
+    </body>
+</html>
